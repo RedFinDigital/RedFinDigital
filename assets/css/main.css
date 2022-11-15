@@ -980,7 +980,12 @@ section {
 --------------------------------------------------------------*/
 .portfolio{
   background: #fff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
+
+
 
 .portfolio .portfolio-flters {
   padding: 0 0 20px 0;
@@ -988,6 +993,24 @@ section {
   list-style: none;
   text-align: center;
   display: flex;
+}
+
+.portfolio .row{
+  display: flex;
+}
+
+.portfolio .col{
+  display:flex;
+}
+
+.portfolio .portfolio-item{
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.portfolio-info {
+  margin: auto;
 }
 
 .portfolio .btn-get-started {
@@ -1060,7 +1083,7 @@ section {
 @media (max-width: 575px) {
   .portfolio .portfolio-flters li {
     font-size: 14px;
-    margin: 0 5px;
+    margin: 0 0px;
   }
 }
 
@@ -1069,6 +1092,8 @@ section {
   border-radius: 10px;
   height: 100%;
   overflow: hidden;
+  justify-content: center;
+  align-items: center;
 }
 
 .portfolio .portfolio-wrap img {
@@ -1103,7 +1128,6 @@ section {
   color: #6c757d;
   font-size: 14px;
   margin-bottom: 0;
-  padding-right: 50px;
 }
 
 .portfolio .portfolio-wrap:hover img {
@@ -1118,6 +1142,7 @@ section {
   padding: none;
   padding:60px;
 }
+
 
 .portfolio-details .position-relative{
   width: 60%;
