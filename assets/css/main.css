@@ -2076,3 +2076,30 @@ font-size: 38px;
 .footer .credits a {
   color: #ff1616;
 }
+
+/*-----------------------------------------
+Error Page
+----------------------------------------*/
+.gohome{
+  width:50%;
+  margin: auto;
+}
+.btn-go-home {
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 7px 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+  color: #fff;
+  background: #ff1616;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+  border: 2px solid #fff;
+  width:100%;
+  text-align: center;
+  margin-top: 2px;
+  border-color:#FF1616;
+  margin:auto;
+}
