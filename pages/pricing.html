@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Red Fin Digital Sample Inner Page</title>
+  <title>Red Fin Digital Pricing</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -27,6 +27,7 @@
 
   <!-- Template Main CSS File -->
   <link href="../assets/css/main.css" rel="stylesheet">
+  <script src="../assets/js/pricing.js" defer></script>
 
 </head>
 
@@ -87,96 +88,110 @@
       </nav>
     </div><!-- End Breadcrumbs -->
 
-    <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing sections-bg">
-      <div class="container" data-aos="fade-up">
-
-
-        <div class="row g-4 py-lg-5" data-aos="zoom-out" data-aos-delay="100">
-
-          <div class="col-lg-4">
-            <div class="pricing-item">
-              <h3>Start-Up</h3>
-              <p style="font-size:20px; font-weight:600px">Ideal for small or start-up businesses</p>
-              <div class="icon">
-                
-              </div>
-              <p>from </p><h4><sup></sup>£25 per month*</h4>
-              <h6 style="margin-top:8px;">OR</h6>
-              <h4><sup></sup>£250 up front</h4>
-              <hr>
-              <ul>
-                <li style="font-weight: 800"> Custom Design</li>
-                <li> Up to 3 Pages</li>
-                <li> 10 Hours Coding Front/Back End</li>
-                <li> SEO Friendly</li>
-                <li> Custom Domain Name </li>
-                <li> 1 Year Hosting </li>
-                <li> Mobile, Tablet & Desktop Friendly </li>
-              </ul>
-              <div class="text-center"><a href="../pages/contact" class="buy-btn">Enquire Now</a></div>
-              <p style="font-size: 12px; margin-top: 20px; color: rgb(114, 114, 114)">* minimum 12 month contract.</p>
-            </div>
-          </div><!-- End Pricing Item -->
-
-          <div class="col-lg-4">
-            <div class="pricing-item featured">
-              <h3>Business</h3>
-              <p style="font-size:20px; font-weight:600px"><span style="color: #ff1616; font-weight:700">Most popular </span>- Ideal for small or medium businesses</p>
-              <div class="icon">
-                
-              </div>
-              <p>from </p><h4><sup></sup>£39 per month*</h4>
-              <h6 style="margin-top:8px;">OR</h6>
-              <h4><sup></sup>£390 up front</h4>
-              <hr>
-              <ul>
-                <li style="font-weight: 800"> Premium Custom Design</li>
-                <li> Up to 6 Pages</li>
-                <li> 20 Hours Coding Front/Back End</li>
-                <li> SEO Boost</li>
-                <li> Ongoing Techincal Support</li>
-                <li> 1 Year Hosting </li>
-                <li> Custom Domain Name & Hosting </li>
-                <li> Mobile, Tablet & Desktop Friendly </li>
-              </ul>
-              <div class="text-center"><a href="../pages/contact" class="buy-btn">Enquire Now</a></div>
-              <p style="font-size: 12px; margin-top: 20px; color: rgb(114, 114, 114)">* minimum 12 month contract.</p>
-            </div>
-          </div><!-- End Pricing Item -->
-
-          <div class="col-lg-4">
-            <div class="pricing-item">
-              <h3>Premium</h3>
-              <p style="font-size:20px; font-weight:600px"><span style="color: #ff1616; font-weight:700"></span>Our very best package for larger websites</p>
-              <div class="icon">
-                
-              </div>
-              <p>from </p><h4><sup></sup>£69 per month*</h4>
-              <h6 style="margin-top:8px;">OR</h6>
-              <h4><sup></sup>£690 up front</h4>
-              <hr>
-              <ul>
-                <li style="font-weight: 800"> Premium Custom Design</li>
-                <li> 12+ Pages</li>
-                <li> 40+ Hours Coding Front/Back End</li>
-                <li> SEO Boost</li>
-                <li> Ongoing Techincal Support</li>
-                <li> Integrated CMS</li>
-                <li> Ecommerce Functionality</li>
-                <li> 1 Year Hosting </li>
-                <li> Custom Domain Name & Hosting </li>
-                <li> Mobile, Tablet & Desktop Friendly </li>
-              </ul>
-              <div class="text-center"><a href="../pages/contact" class="buy-btn">Enquire Now</a></div>
-              <p style="font-size: 12px; margin-top: 20px; color: rgb(114, 114, 114)">* minimum 12 month contract.</p>
-            </div>
-          </div><!-- End Pricing Item -->
-
+    <body>
+      <section class="pricing">
+      <div class="container">  
+        <div class="toggle-container">
+          <span>Monthly</span>
+          <span>
+            <input type="checkbox" name="toggle" id="toggle" unchecked />
+            <label for="toggle">
+              <div class="ball"></div>
+            </label>
+          </span>
+          <span>One off</span>
         </div>
-
+  
+        <div id="flexy" class="flex">
+          <div class="price-box">
+            <h4 style="font-size: 30px; font-weight: 600px; color:#000; font-family: montserrat">Start-Up</h4>
+            <p style="font-size:20px; font-weight:600px; color:#000; margin-top: 20px;">Ideal for small or start-up businesses</p>
+            <h3 style="font-size: 16px; font-weight: 400px; color:#000; font-family: montserrat; margin-top:10px">From</h3>
+            <p>
+              <span class="monthly">
+                &pound;250
+              </span>
+              <span class="annually">
+                &pound;25
+              </span>
+              <p class="annually" style="font-size: 16px; font-weight:900; color:#000; font-family: montserrat; margin-bottom:10px">
+                per month for 12 months
+              </p>
+            </p>
+              
+            <ul>
+              <li>Custom Design</li>
+              <li>Up to 3 Pages</li>
+              <li>10 Hours Coding Front/Back End</li>
+              <li>SEO Friendly</li>
+              <li>Custom Domain Name</li>
+              <li>1 Year Hosting</li>
+              <li>Mobile, Tablet & Desktop Friendly</li>
+            </ul>
+            <a href="./contact.html" class="buy-btn">Enquire Now</a>
+                    </div>
+  
+          <div class="price-box price-box-premium">
+            <h4 style="font-size: 30px; font-weight: 600px; color:#000; font-family: montserrat">Business</h4>
+            <p style="font-size:20px; font-weight:600px; margin-top: 20px; color:#000; "><span style=" font-size:20px; color: #ff1616; font-weight:700; margin-top: 20px;">Most popular </span> - Ideal for small or medium businesses</p>
+            <h3 style="font-size: 16px; font-weight: 400px; color:#000; font-family: montserrat; margin-top:10px">From</h3>
+            <p>
+              <span class="monthly">
+                &pound;390
+              </span>
+              <span class="annually">
+                &pound;39
+              </span>
+              <p class="annually" style="font-size: 16px; font-weight:900; color:#000; font-family: montserrat; margin-bottom:10px">
+                per month for 12 months
+              </p>
+            </p>
+            <ul>
+              <li>Premium Custom Design</li>
+              <li>Up to 6 Pages</li>
+              <li>20 Hours Coding Front/Back End</li>
+              <li>SEO Boost</li>
+              <li>Ongoing Techincal Support</li>
+              <li>1 Year Hosting</li>
+              <li>Custom Domain Name & Hosting</li>
+              <li>Mobile, Tablet & Desktop Friendly</li>
+            </ul>
+            <a href="./contact.html" class="buy-btn">Enquire Now</a>
+                    </div>
+  
+          <div class="price-box">
+            <h4 style="font-size: 30px; font-weight: 600px; color:#000; font-family: montserrat">Premium</h4>
+            <p style="font-size:20px; font-weight:600px; margin-top: 20px; color:#000; ">Our very best package for larger websites</p>
+            <h3 style="font-size: 16px; font-weight: 400px; color:#000; font-family: montserrat; margin-top:10px">From</h3>
+            <p>
+              <span class="monthly">
+                &pound;690
+              </span>
+              <span class="annually">
+                &pound;69
+              </span>
+              <p class="annually" style="font-size: 16px; font-weight:900; color:#000; font-family: montserrat; margin-bottom:10px">
+                per month for 12 months
+              </p>
+            </p>
+            <ul>
+              <li>Premium Custom Design</li>
+              <li>12+ Pages</li>
+              <li>40+ Hours Coding Front/Back End</li>
+              <li>SEO Boost</li>
+              <li>Ongoing Techincal Support</li>
+              <li>Integrated CMS</li>
+              <li>Ecommerce Functionality</li>
+              <li>1 Year Hosting</li>
+              <li>Custom Domain Name & Hosting</li>
+              <li>Mobile, Tablet & Desktop Friendly</li>
+            </ul>
+            <a href="./contact.html" class="buy-btn">Enquire Now</a>
+          </div>
+        </div>
       </div>
-    </section><!-- End Pricing Section -->
+    </body>
+  </section>
 
   </main><!-- End #main -->
 

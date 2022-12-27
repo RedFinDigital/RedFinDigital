@@ -2103,3 +2103,159 @@ Error Page
   border-color:#FF1616;
   margin:auto;
 }
+
+/*-----------------------------------------
+Pricing
+-----------------------------------------*/
+.pricing {
+  margin:auto;
+	max-width: 100%;
+	width: 100%;
+}
+
+.pricing .flex {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  
+}
+
+
+.toggle-container {
+	color: #000;
+	margin-bottom: 40px;
+}
+
+.price-box {
+	border-radius: 10px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+	color: hsl(0, 0%, 0%);
+	padding: 30px;
+	margin: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left:30px;
+  margin-right:30px;
+
+  width:100%;
+}
+
+
+.price-box.price-box-premium {
+	border-radius: 10px;
+	box-shadow: 0 0 20px 5px #ff1616;
+	color: hsl(0, 0%, 0%);
+	padding: 30px;
+	margin: 10px;
+  text-align: center;
+  margin-left:30px;
+  margin-right:30px;
+  width: 100%;
+}
+
+
+.price-box h4 {
+	margin: 0;
+}
+
+.price-box p {
+	color: hsl(232, 13%, 33%);
+	font-size: 4em; 
+  color: #ff1616;
+}
+
+.price-box .monthly {
+	display: none;
+}
+
+.show-monthly .price-box .monthly {
+	display: block;
+}
+
+.show-monthly .price-box .annually {
+	display: none;
+}
+
+.price-box ul {
+	border-top: 1px solid hsl(234, 14%, 74%);
+	padding: 0;
+	list-style-type: none;
+}
+
+.price-box ul li {
+	border-bottom: 1px solid hsl(234, 14%, 74%);
+	font-size: 14px;
+
+}
+
+.price-box button {
+	background: 
+		#ff1616;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 2px;
+	padding: 15px;
+	margin-top: 10px;
+	width: 100%;
+	text-transform: uppercase;
+}
+
+
+/* Pill toggle */
+.toggle-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.toggle-container label {
+	background-image: linear-gradient(
+		to right,
+		#ff1616,
+		#ff1616
+	);
+	border-radius: 50px;
+	cursor: pointer;
+	display: inline-block;
+	margin: 0 10px;
+	position: relative;
+	height: 30px;
+	width: 60px;
+}
+
+.toggle-container label .ball {
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 2.5px;
+	left: 2.5px;
+	height: 25px;
+	width: 25px;
+	transition: transform 0.4s ease;
+}
+
+.toggle-container input {
+	position: absolute;
+	left: -9999px;
+}
+
+.toggle-container input:checked + label .ball {
+	transform: translateX(30px);
+}
+
+@media screen and (max-width: 930px) {
+	.flex {
+		flex-direction: column;
+	}
+
+	.price-box.price-box-premium {
+		transform: scale(1);
+	}
+
+	.price-box.price-box-premium > * {
+		transform: scale(1);
+	}
+}
