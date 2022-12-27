@@ -728,43 +728,6 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Clients Section
---------------------------------------------------------------*/
-.clients {
-  padding: 1px 0;
-  background: #f4f4f4;
-}
-
-.clients .swiper {
-  padding: 10px 0;
-}
-
-.clients .swiper-slide img {
-  transition: 0.3s;
-}
-
-.clients .swiper-slide img:hover {
-  transform: scale(1.1);
-}
-
-.clients .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-
-.clients .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #000;
-  opacity: 1;
-  background-color: #000;
-}
-
-.clients .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ff1616;
-}
-
-/*--------------------------------------------------------------
 # Call To Action Section
 --------------------------------------------------------------*/
 .call-to-action .container {
@@ -1139,10 +1102,24 @@ section {
 }
 
 .portfolio-details img {
-  width: 70%;
+  width: 50%;
   justify-content: center;
   margin: auto;
+  
 }
+@media only screen and (max-width:500px){
+  .alignwide {
+     width: 100% !important;
+   
+  }
+   .portfolio-details img{
+  
+  object-fit: contain !important;
+  width: 100% !important;
+  min-height: auto !important;
+  
+      }
+  }
 
 .portfolio-details .portfolio-info {
   padding: 30px;
