@@ -1,6 +1,11 @@
+Options +FollowSymLinks -MultiViews
 RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-d
+RewriteBase /
+
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^/]+)$ /$1 [NC, L]
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+RewriteCond %{REQUEST_URI} ^/pages/
+RewriteRule ^pages/(.+)$ /$1 [R=301,L]
 
 ErrorDocument 404 /Error404.html
