@@ -1100,6 +1100,7 @@ section {
   transition: 0.3s;
   position: relative;
   z-index: 1;
+  width: 500px;
 }
 
 .portfolio .portfolio-wrap .portfolio-info {
