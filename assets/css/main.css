@@ -1910,10 +1910,10 @@ font-size: 38px;
 }
 
 .hero h2 {
-  font-size: 56px;
-  font-weight: 00;
-  margin-bottom: 20px;
   color: #fff;
+  font-weight: 400;
+  margin-bottom: 30px;
+  font-size: 30px;
   text-shadow: 1px 1px #222222;
 }
 
