@@ -1911,7 +1911,7 @@ font-size: 38px;
 
 .hero h2 {
   font-size: 56px;
-  font-weight: 700;
+  font-weight: 00;
   margin-bottom: 20px;
   color: #fff;
   text-shadow: 1px 1px #222222;
@@ -1927,7 +1927,7 @@ font-size: 38px;
 
 .hero .btn-get-started {
   font-family: var(--font-primary);
-  font-weight: 500;
+  font-weight: 600;
   font-size: 15px;
   letter-spacing: 1px;
   display: inline-block;
