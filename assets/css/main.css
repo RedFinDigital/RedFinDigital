@@ -1,4 +1,59 @@
 /* Fonts */
+/* montserrat-regular - latin-ext_latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Montserrat/montserrat-v25-latin-ext_latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/Montserrat/montserrat-v25-latin-ext_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+}
+/* montserrat-500 - latin-ext_latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/Montserrat/montserrat-v25-latin-ext_latin-500.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/Montserrat/montserrat-v25-latin-ext_latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+}
+/* montserrat-600 - latin-ext_latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/Montserrat/montserrat-v25-latin-ext_latin-600.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/Montserrat/montserrat-v25-latin-ext_latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+}
+/* montserrat-700 - latin-ext_latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/Montserrat/montserrat-v25-latin-ext_latin-700.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/Montserrat/montserrat-v25-latin-ext_latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+}
+/* montserrat-800 - latin-ext_latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/Montserrat/montserrat-v25-latin-ext_latin-800.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/Montserrat/montserrat-v25-latin-ext_latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+}
+/* montserrat-900 - latin-ext_latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/Montserrat/montserrat-v25-latin-ext_latin-900.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/Montserrat/montserrat-v25-latin-ext_latin-900.woff2') format('woff2'), /* Super Modern Browsers */
+}
+
 :root {
   --font-default: "Open Sans", "Arial", sans-serif;
   --font-primary: "Montserrat", "Arial", sans-serif;
