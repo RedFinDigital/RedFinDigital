@@ -1831,12 +1831,17 @@ font-size: 38px;
 .contact .php-email-form input[type=email],
 .contact .php-email-form textarea {
   padding: 12px 15px;
+  width:100%;
+  background:#fff;
+  border-color: #fff;
+  font-family: var(--font-primary);
 }
 
 .contact .php-email-form input[type=text]:focus,
 .contact .php-email-form input[type=email]:focus,
 .contact .php-email-form textarea:focus {
-  border-color: var(--color-primary);
+  border-color: #fff;
+  font-family: var(--font-primary);
 }
 
 .contact .php-email-form textarea {
