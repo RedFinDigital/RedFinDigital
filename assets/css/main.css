@@ -1037,9 +1037,13 @@ section {
   background: #fff;
   justify-content: center;
   align-items: center;
-  display: flex;
+  display:flex;
 }
 
+.portfolio-container {
+  display: flex;
+  justify-content: center;
+}
 
 
 .portfolio .portfolio-flters {
@@ -1058,10 +1062,12 @@ section {
   display:flex;
 }
 
-.portfolio .portfolio-item{
+.portfolio-item{
+  display:flex;
   justify-content: center;
   align-items: center;
-  margin: auto;
+  margin-top:10px;
+  margin-bottom:10px;
 }
 
 .portfolio-info {
