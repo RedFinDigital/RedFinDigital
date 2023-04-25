@@ -1044,7 +1044,14 @@ section {
   display: flex;
 }
 
+.portfolio .swiper-slide img{
+  width:100%;
 
+}
+
+.swiper-button-next:after, .swiper-button-prev:after{
+  color:#000;
+}
 .portfolio .portfolio-flters {
   padding: 0 0 20px 0;
   margin: 0 auto;
@@ -1068,9 +1075,6 @@ section {
   margin-bottom:10px;
 }
 
-.portfolio-info {
-  margin: auto;
-}
 
 .portfolio .btn-get-started {
   font-family: var(--font-primary);
@@ -1091,14 +1095,6 @@ section {
   border-color:#FF1616;
 }
 
-.portfolio-info{
-  justify-content: center;
-  align-items: center;;
-  display:inline-flex;
-  flex-direction: column;
-  text-align: center;
-  width: 100%;
-}
 
 .portfolio-info h4{
   margin: auto;
@@ -1159,13 +1155,45 @@ section {
   transition: 0.3s;
   position: relative;
   z-index: 1;
-  width: 500px;
+}
+
+.nope{
+  display:flex;
+  flex-wrap:nowrap !important;
+}
+
+.portfolio-info{
+  background:#f4f4f4;
+  padding: 20px;
+  margin-left:30px;
+  box-shadow: 10px 10px;
+  width:100%;
+}
+
+.portfolio-info h3{
+font-weight: 600;
+}
+
+.portfolio-info strong{
+  color: #000;
+}
+
+.portfolio-description{
+  padding: 20px;
+}
+
+.swiper-pointer-events {
+  touch-action: pan-y;
+  margin-bottom: 30px;
+}
+
+.portfolio-description h2{
+  font-weight: 600;
 }
 
 .portfolio .portfolio-wrap .portfolio-info {
   padding: 25px 20px;
   background-color: #fff;
-  position: relative;
   border-top: 1px solid #f3f3f3;
   z-index: 2;
 }
@@ -1201,6 +1229,13 @@ section {
 .portfolio-details{
   padding: none;
   padding:60px;
+  display:flex;
+}
+
+.swiper-slide {
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 
@@ -2365,3 +2400,4 @@ Pricing
 		transform: scale(1);
 	}
 }
+
